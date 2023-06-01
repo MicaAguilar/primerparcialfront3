@@ -33,8 +33,39 @@
   }
 }
 
-.card {
-  padding: 2em;
+.tarjeta{
+  width: 500px;
+  height: 300px;
+  border: 2px solid #191a58;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background-color: rgb(8, 201, 201);
+}
+
+.Formulario{
+  width: 300px;
+  height: 300px;
+  border:2px salmon;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(117, 197, 135);
+}
+
+.input{
+  padding: 2px;
+  margin:auto;
+  border-radius: 5px;
+}
+
+  button {
+    width: 50%;
+    margin:auto;
+    border-radius: 10px;
+    background-color: blue
 }
 
 .read-the-docs {
